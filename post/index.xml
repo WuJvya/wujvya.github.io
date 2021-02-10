@@ -18,10 +18,10 @@
     
     <item>
       <title>Blog</title>
-      <link>https://wujvya.github.io/post/blog/</link>
+      <link>https://wujvya.github.io/post/%E5%9C%A8linux%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 09 Feb 2021 06:27:32 -0800</pubDate>
       
-      <guid>https://wujvya.github.io/post/blog/</guid>
+      <guid>https://wujvya.github.io/post/%E5%9C%A8linux%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhugo%E5%8D%9A%E5%AE%A2/</guid>
       <description>简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
 该篇文章是在Linux/Ubuntu系统下安装搭建 Hugo 博客。
 本博客参考了该视频：https://www.bilibili.com/video/BV1q4411i7gL
