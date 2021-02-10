@@ -242,7 +242,7 @@ To https://github.com/WuJvya/wujvya.github.io.git
 </code></pre></div><p>输入完命令后，需要你输入<code>GitHub</code>的账号和密码，账号可以为用户名或者邮箱，完成后刷新远程仓库，就可以看到提交的文件。</p>
 <p>好了，到这里，你的博客就搭建完成了。</p>
 <h1 id="七新增文章">七、新增文章</h1>
-<p>生成文章后，相当于执行<code>六、将个人博客部署到远程服务器</code>中的第2步及之后，除下第3.d步的所有步骤。</p>
+<p>生成文章后，相当于执行<code>六、将个人博客部署到远程服务器</code>中的第2步及之后，除下第3.a、3.d步的所有步骤。</p>
 <p>新建博客文章文件：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@ubuntu:/home/wjy/myblog# hugo new post/blog2.md
 /home/wjy/myblog/content/post/blog2.md created
@@ -262,10 +262,6 @@ Start building sites …
   Cleaned          |  <span style="color:#ae81ff">0</span>  
 
 Total in <span style="color:#ae81ff">28</span> ms
-
-</code></pre></div><p>重新初始化现存的 Git 仓库：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@ubuntu:/home/wjy/myblog/public# git init
-重新初始化现存的 Git 仓库于 /home/wjy/myblog/public/.git/
 
 </code></pre></div><p>添加文件：</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@ubuntu:/home/wjy/myblog/public# git add *
