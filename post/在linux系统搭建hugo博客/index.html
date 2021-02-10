@@ -227,7 +227,9 @@ Total in <span style="color:#ae81ff">25</span> ms
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@ubuntu:/home/wjy/myblog/public# git remote add origin https://github.com/WuJvya/wujvya.github.io.git
 </code></pre></div><p>注意：关联的地址为打开你新建的仓库的全地址（浏览器地址栏的地址）加上<code>.git</code></p>
 <h3 id="e把博客推送到远程仓库把代码放到远程仓库">e、把博客推送到远程仓库（把代码放到远程仓库）：</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@ubuntu:/home/wjy/myblog/public# git push -u origin master
+<p>先输入下面的命令，用于保存账号和密码（第一次要输入账号和密码，之后就不用了）</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@ubuntu:/home/wjy/myblog/public# git config --global credential.helper store
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">root@ubuntu:/home/wjy/myblog/public# git push -u origin master
 Username <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#39;https://github.com&#39;</span>: 1813114396@qq.com
 Password <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#39;https://1813114396@qq.com@github.com&#39;</span>: 
 对象计数中: 26, 完成.
