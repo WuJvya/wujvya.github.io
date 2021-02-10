@@ -22,7 +22,15 @@
       <pubDate>Tue, 09 Feb 2021 06:27:32 -0800</pubDate>
       
       <guid>https://wujvya.github.io/post/blog/</guid>
-      <description>测试 </description>
+      <description>简介 Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。
+该篇文章是在Linux/Ubuntu系统下安装搭建 Hugo 博客。
+本博客参考了该视频：https://www.bilibili.com/video/BV1q4411i7gL
+一、安装Hugo 到 https://github.com/gohugoio/hugo/releases 查看与CPU对应的版本下载
+我用 sudo apt-get install 命令下载的 hugo 是16年的版本，所以我建议到官网手动下载 deb 安装程序，或者复制下载地址，用命令
+wjy@ubuntu:~$ wget https://github.com/gohugoio/hugo/releases/download/v0.80.0/hugo_0.80.0_Linux-64bit.deb ​	进行下载，下载完后安装：
+wjy@ubuntu:~/Downloads$ sudo dpkg -i hugo_0.80.0_Linux-64bit.deb (正在读取数据库 ... 系统当前共安装有 183289 个文件和目录。) 正准备解包 hugo_0.80.0_Linux-64bit.deb ... 正在将 hugo (0.80.0) 解包到 (0.80.0) 上 ... 正在设置 hugo (0.80.0) ... 这样表示成功。验证（查看版本）：
+wjy@ubuntu:~$ hugo version Hugo Static Site Generator v0.80.0-792EF0F4 linux/amd64 BuildDate: 2020-12-31T13:37:58Z 二、用hugo来生成博客 命令：
+wjy@ubuntu:~$ hugo new site myblog Congratulations! Your new Hugo site is created in /home/wjy/myblog.</description>
     </item>
     
   </channel>
